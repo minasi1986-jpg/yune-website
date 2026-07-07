@@ -20,16 +20,16 @@ export default function Home() {
         <img src="/images/pillars.jpg" alt="4 Pillars" className="w-full rounded-2xl" />
       </section>
 
-      {/* 3. FORMULATION */}
-      <section className="py-20">
-        <h2 className="text-4xl font-bold mb-12" style={{fontFamily: "Playfair Display"}}>Our Formulation Philosophy</h2>
-        <img src="/images/formulation.jpg" alt="Formulation" className="w-full rounded-2xl" />
-      </section>
+     {/* 3. FORMULATION */}
+     <section className="py-20">
+       <h2 className="text-4xl font-bold mb-12" style={{fontFamily: "Playfair Display"}}>Our Formulation Philosophy</h2>
+     </section>
+       
 
-      {/* 4. AI ASSESSMENT */}
-      <section className="py-20">
-        <img src="/images/assessment.jpg" alt="AI Assessment" className="w-full rounded-2xl" />
-      </section>
+     {/* 4. AI ASSESSMENT */}
+     <section className="py-20">
+      <img src="/images/ai-assessment.jpg" alt="AI Assessment" className="w-full rounded-2xl" />
+     </section>
 
       {/* 5. 8 WEEKS */}
       <section className="py-20">
@@ -38,7 +38,7 @@ export default function Home() {
 
       {/* 6. WAITLIST */}
       <section className="py-20 text-center">
-        <img src="/images/waitlist.jpg" alt="Join Waitlist" className="w-full rounded-2xl" />
+        <img src="/images/join-waitlist.jpg" alt="Join Waitlist" className="w-full rounded-2xl" />
       </section>
 
     </div>

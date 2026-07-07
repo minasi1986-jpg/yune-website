@@ -21,14 +21,25 @@ export default function Home() {
         <img src="/images/pillars.jpg" alt="4 Pillars" className="w-full rounded-2xl" />
       </section>
 
-      {/* 3. FORMULATION */}
+      {/* 3. FORMULATION - NO IMAGE */}
       <section className="py-20">
         <h2 className="text-4xl font-bold mb-12" style={{fontFamily: "Playfair Display"}}>Our Formulation Philosophy</h2>
+        <p className="text-gray-600 text-lg">Synergistic ingredients. Optimal ratios. Maximum skin impact.</p>
       </section>
 
       {/* 4. AI ASSESSMENT */}
       <section className="py-20">
         <img src="/images/ai-assessment.jpg" alt="AI Assessment" className="w-full rounded-2xl" />
+      </section>
+
+      {/* 5. JOURNEY */}
+      <section className="py-20">
+        <img src="/images/journey.jpg" alt="8 Week Journey" className="w-full rounded-2xl" />
+      </section>
+
+      {/* 6. JOIN WAITLIST */}
+      <section className="py-20">
+        <img src="/images/join-waitlist.jpg" alt="Join Waitlist" className="w-full rounded-2xl" />
       </section>
     </div>
   )
